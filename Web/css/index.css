@@ -1,0 +1,119 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+
+#BannerPanel {
+    background-image: url(../Images/WallPaper.jpg);
+    background-size: 100% 600px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#TokenGiovane {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#BannerPanelText {
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    width: 20em;
+    height: 15em;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin: 0px;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+.Sticky {
+    position: fixed;
+    bottom: 7%;
+    right: 4%;
+    width: 50px;
+    height: 100px;
+    background-color: rgb(25, 25, 25);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.Iconesocial {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    margin-top: 7px;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#MenuNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.NavItem {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.NavItem:hover {
+    opacity: 0.5;
+}
+
+.NavItemStyle {
+    background-color: rgb(40, 40, 40);
+    width: 230px;
+    height: 24px;
+    text-align: center;
+    padding: 9px 0;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+#Sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    margin-right: 50px;
+    width: 85%;
+    background-color: rgb(30, 30, 30);
+    border-style: double;
+}
