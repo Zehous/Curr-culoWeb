@@ -117,3 +117,8 @@ section {
     background-color: rgb(30, 30, 30);
     border-style: double;
 }
+
+#linkStyle {
+    text-decoration: underline;
+    color: white;
+}
