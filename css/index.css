@@ -122,3 +122,8 @@ section {
     text-decoration: underline;
     color: white;
 }
+
+.linkStyle:visited {
+    text-decoration: underline;
+    color: white;
+}
