@@ -115,7 +115,8 @@ section {
     margin-right: 50px;
     width: 85%;
     background-color: rgb(30, 30, 30);
-    border-style: double;
+    border-style: none;
+	border-radius: 25px;
 }
 
 .linkStyle {
